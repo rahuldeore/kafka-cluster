@@ -5,8 +5,10 @@ kafka server, docker compose standalone server, docker compose kafka cluster.
 
 Manual setup
 ------------
-This tutorial is derived from original documentation available at the kafka website: 
-https://kafka.apache.org/documentation.html#quickstart
+This tutorial is derived from original documentation available at the kafka website: https://kafka.apache.org/documentation.html#quickstart 
+Other resources referred during this learning:
+- https://www.baeldung.com/ops/kafka-docker-setup
+- https://docs.docker.com/compose/reference/
 
 High level steps tested with kafka version 3.3.1
 1. Download kafka desktop version
@@ -15,7 +17,9 @@ High level steps tested with kafka version 3.3.1
 4. Kafka standalone is setup !
 5. Some simple examples below.
    1. Test producer consumer
-      1. Test kafka-connect (File read example)
+   2. Test kafka-connect (File read example)
+   3. Check messages from beginning and / or listen for new
+   4. 
 
 Docker compose standalone server
 --------------------------------
